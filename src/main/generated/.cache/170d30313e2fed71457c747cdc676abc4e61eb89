@@ -1,0 +1,8 @@
+// 1.20.4	2024-08-23T20:30:32.6608787	Scotty's London Underground/Model Definitions
+0ed7b21a3b38ee80f9242a1ac5dc22a2ad000af4 assets\scottylu\models\item\oyster.json
+bb2ec87d333042dedcd32002f0b79ae5fb4529c2 assets\scottylu\models\block\helppoint_odd.json
+4da3c9afa1830c8470824c407443b0794f029ed2 assets\scottylu\blockstates\helppoint_even.json
+083f9078e6dac96c2b604f3dce948a2f84d9dd88 assets\scottylu\blockstates\helppoint_odd.json
+35cc1442d33eecb0c9cd9f89b62c91b540283cd5 assets\scottylu\models\item\helppoint_odd.json
+caf6d0ea37ef72a7fdae04bbd154b7a9348d021a assets\scottylu\models\item\helppoint_even.json
+c0b6d8b5923fee8c3cf069ae27cee25ad45000ba assets\scottylu\models\block\helppoint_even.json
