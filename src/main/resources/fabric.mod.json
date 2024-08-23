@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "scottylu",
+	"version": "${version}",
+	"name": "Scotty's London Underground",
+	"description": "Decorative London Underground blocks. Best used with MTR",
+	"authors": [
+		"ScottishCrafter"
+	],
+	"contact": {
+		"homepage": "https://scottyslu.slfhstd.uk",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/scottylu/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"uk.slfhstd.scottyslu.ScottysLondonUnderground"
+		],
+
+		"client": [
+			"uk.slfhstd.scottyslu.ScottysLondonUndergroundClient"
+		],
+		"fabric-datagen": [
+			"uk.slfhstd.scottyslu.ScottysLondonUndergroundDataGenerator"
+		]
+	},
+	"mixins": [
+		"scottylu.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
