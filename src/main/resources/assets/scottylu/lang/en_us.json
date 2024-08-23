@@ -1,3 +1,9 @@
 {
-  "item.scottylu.oyster": "Oyster Card"
+  "item.scottylu.oyster": "Oyster Card",
+
+  "itemgroup.scotty": "Scotty's London Underground",
+
+  "block.scottylu.helppoint_even": "Help Point (Even)",
+  "block.scottylu.helppoint_odd": "Help Point (Odd)"
+
 }
