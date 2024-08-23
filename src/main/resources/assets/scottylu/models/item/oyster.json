@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "scottyslu:item/oyster"
+    "layer0": "scottylu:item/oyster"
   }
 }
