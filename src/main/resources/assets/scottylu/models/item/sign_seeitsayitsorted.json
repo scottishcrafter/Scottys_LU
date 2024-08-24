@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scottylu:item/sign_seeitsayitsorted"
+  }
+}

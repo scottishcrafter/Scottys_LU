@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "scottylu:block/colour_tram",
+    "east": "scottylu:block/colour_tram",
+    "north": "scottylu:block/colour_tram",
+    "particle": "scottylu:block/colour_tram",
+    "south": "scottylu:block/colour_tram",
+    "up": "scottylu:block/colour_tram",
+    "west": "scottylu:block/colour_tram"
+  }
+}

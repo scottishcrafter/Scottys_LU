@@ -15,8 +15,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerGeneric(ModBlocks.HELPPOINT_EVEN);
-        blockStateModelGenerator.registerGeneric(ModBlocks.HELPPOINT_ODD);
+
+
+
     }
 
     @Override

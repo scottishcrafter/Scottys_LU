@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     "scottylu:helppoint_even",
-    "scottylu:helppoint_odd"
+    "scottylu:helppoint_odd",
+    "scottylu:colour_tube",
+    "scottylu:colour_dlr",
+    "scottylu:colour_lizzie",
+    "scottylu:colour_bus",
+    "scottylu:colour_overground",
+    "scottylu:colour_cablecar",
+    "scottylu:colour_river",
+    "scottylu:colour_tram"
   ]
 }

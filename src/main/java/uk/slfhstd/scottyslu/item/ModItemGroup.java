@@ -20,6 +20,44 @@ public class ModItemGroup {
 
                     }).build());
 
+    public static final ItemGroup SCOTTY_LU_COLOURS = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_colours"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scotty_colours"))
+                    .icon(() -> new ItemStack(ModBlocks.COLOUR_TUBE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.COLOUR_TUBE);
+                        entries.add(ModBlocks.COLOUR_DLR);
+                        entries.add(ModBlocks.COLOUR_LIZZIE);
+                        entries.add(ModBlocks.COLOUR_BUS);
+                        entries.add(ModBlocks.COLOUR_OVERGROUND);
+                        entries.add(ModBlocks.COLOUR_CABLECAR);
+                        entries.add(ModBlocks.COLOUR_RIVER);
+                        entries.add(ModBlocks.COLOUR_TRAM);
+
+                    }).build());
+    public static final ItemGroup SCOTTY_LU_LINE_COLOURS = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_line_colours"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scotty_line_colours"))
+                    .icon(() -> new ItemStack(ModBlocks.LINE_COLOUR_BAKERLOO)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.LINE_COLOUR_BAKERLOO);
+                        entries.add(ModBlocks.LINE_COLOUR_CENTRAL);
+                        entries.add(ModBlocks.LINE_COLOUR_CIRCLE);
+                        entries.add(ModBlocks.LINE_COLOUR_DISTRICT);
+                        entries.add(ModBlocks.LINE_COLOUR_HAMCITY);
+                        entries.add(ModBlocks.LINE_COLOUR_JUBILEE);
+                        entries.add(ModBlocks.LINE_COLOUR_METRO);
+                        entries.add(ModBlocks.LINE_COLOUR_NORTHERN);
+                        entries.add(ModBlocks.LINE_COLOUR_PICCADILLY);
+                        entries.add(ModBlocks.LINE_COLOUR_VICTORIA);
+                        entries.add(ModBlocks.LINE_COLOUR_WATERCITY);
+
+                    }).build());
+
+    public static final ItemGroup SCOTTY_LU_SIGNS = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_signs"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scotty_signs"))
+                    .icon(() -> new ItemStack(ModBlocks.CCTV_FC)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CCTV_AA);
+                        entries.add(ModBlocks.CCTV_FC);
+                        entries.add(ModBlocks.SIGN_SEEITSAYITSORTED);
+
+                    }).build());
     public static void registerItemGroups() {
         ScottysLondonUnderground.LOGGER.info("Registering Tabs for" +ScottysLondonUnderground.MOD_ID);
     }

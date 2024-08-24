@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "scottylu:block/colour_cablecar",
+    "east": "scottylu:block/colour_cablecar",
+    "north": "scottylu:block/colour_cablecar",
+    "particle": "scottylu:block/colour_cablecar",
+    "south": "scottylu:block/colour_cablecar",
+    "up": "scottylu:block/colour_cablecar",
+    "west": "scottylu:block/colour_cablecar"
+  }
+}

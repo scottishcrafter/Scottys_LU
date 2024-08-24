@@ -17,7 +17,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.HELPPOINT_EVEN)
-                .add(ModBlocks.HELPPOINT_ODD);
+                .add(ModBlocks.HELPPOINT_ODD)
+                .add(ModBlocks.COLOUR_TUBE)
+                .add(ModBlocks.COLOUR_DLR)
+                .add(ModBlocks.COLOUR_LIZZIE)
+                .add(ModBlocks.COLOUR_BUS)
+                .add(ModBlocks.COLOUR_OVERGROUND)
+                .add(ModBlocks.COLOUR_CABLECAR)
+                .add(ModBlocks.COLOUR_RIVER)
+                .add(ModBlocks.COLOUR_TRAM);
+
+
 
 
     }

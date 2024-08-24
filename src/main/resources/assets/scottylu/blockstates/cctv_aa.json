@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "scottylu:block/cctv_aa" },
+    "facing=east": { "model": "scottylu:block/cctv_aa", "y": 90 },
+    "facing=south": { "model": "scottylu:block/cctv_aa", "y": 180 },
+    "facing=west": { "model": "scottylu:block/cctv_aa", "y": 270 }
+  }
+}

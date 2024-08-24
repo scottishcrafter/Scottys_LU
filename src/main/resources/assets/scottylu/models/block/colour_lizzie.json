@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "scottylu:block/colour_lizzie",
+    "east": "scottylu:block/colour_lizzie",
+    "north": "scottylu:block/colour_lizzie",
+    "particle": "scottylu:block/colour_lizzie",
+    "south": "scottylu:block/colour_lizzie",
+    "up": "scottylu:block/colour_lizzie",
+    "west": "scottylu:block/colour_lizzie"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "scottylu:block/signs/sign_seeitsayitsorted",
+		"particle": "scottylu:block/signs/sign_seeitsayitsorted"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.01],
+			"to": [32, 16, 0.01],
+			"faces": {
+				"north": {"uv": [7.3125, 13.125, 9.3125, 15.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 15.875, 15.75], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	]
+}

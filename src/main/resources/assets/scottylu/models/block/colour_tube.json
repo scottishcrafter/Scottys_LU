@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "scottylu:block/colour_tube",
+    "east": "scottylu:block/colour_tube",
+    "north": "scottylu:block/colour_tube",
+    "particle": "scottylu:block/colour_tube",
+    "south": "scottylu:block/colour_tube",
+    "up": "scottylu:block/colour_tube",
+    "west": "scottylu:block/colour_tube"
+  }
+}

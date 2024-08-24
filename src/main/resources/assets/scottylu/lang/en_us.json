@@ -2,8 +2,36 @@
   "item.scottylu.oyster": "Oyster Card",
 
   "itemgroup.scotty": "Scotty's London Underground",
+  "itemgroup.scotty_colours": "Scotty's LU Colours",
+  "itemgroup.scotty_line_colours": "Scotty's LU Line Colours",
+  "itemgroup.scotty_signs": "Scotty's LU Signs",
 
   "block.scottylu.helppoint_even": "Help Point (Even)",
-  "block.scottylu.helppoint_odd": "Help Point (Odd)"
+  "block.scottylu.helppoint_odd": "Help Point (Odd)",
+  "block.scottylu.colour_tube": "Tube",
+  "block.scottylu.colour_dlr": "DLR",
+  "block.scottylu.colour_lizzie": "Elizabeth Line",
+  "block.scottylu.colour_bus": "Buses",
+  "block.scottylu.colour_overground": "Overground",
+  "block.scottylu.colour_cablecar": "Cable Car",
+  "block.scottylu.colour_river": "River Services",
+  "block.scottylu.colour_tram": "Trams",
+
+  "block.scottylu.line_colour_bakerloo": "Bakerloo Line",
+  "block.scottylu.line_colour_central": "Central Line",
+  "block.scottylu.line_colour_circle": "Circle Line",
+  "block.scottylu.line_colour_district": "District Line",
+  "block.scottylu.line_colour_hamcity": "Hammersmith and City Line",
+  "block.scottylu.line_colour_jubilee": "Jubilee Line",
+  "block.scottylu.line_colour_metro": "Metropolitan Line",
+  "block.scottylu.line_colour_northern": "Northern Line",
+  "block.scottylu.line_colour_piccadilly": "Piccadilly Line",
+  "block.scottylu.line_colour_victoria": "Victoria Line",
+  "block.scottylu.line_colour_watercity": "Waterloo and City Line",
+
+
+  "block.scottylu.cctv_fc": "CCTV Sign (Fat Controller)",
+  "block.scottylu.cctv_aa": "CCTV Sign (An Adult)",
+  "block.scottylu.sign_seeitsayitsorted": "See It, Say It, Sorted. Sign"
 
 }

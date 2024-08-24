@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "scottylu:block/helppoint_odd" },
+    "facing=east": { "model": "scottylu:block/helppoint_odd", "y": 90 },
+    "facing=south": { "model": "scottylu:block/helppoint_odd", "y": 180 },
+    "facing=west": { "model": "scottylu:block/helppoint_odd", "y": 270 }
+  }
+}
