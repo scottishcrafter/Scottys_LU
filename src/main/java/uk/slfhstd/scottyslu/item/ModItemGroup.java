@@ -56,6 +56,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CCTV_AA);
                         entries.add(ModBlocks.CCTV_FC);
                         entries.add(ModBlocks.SIGN_SEEITSAYITSORTED);
+                        entries.add(ModBlocks.SIGN_NOENTRY);
+                        entries.add(ModBlocks.SIGN_CCTV_SMALL);
 
                     }).build());
     public static void registerItemGroups() {

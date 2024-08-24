@@ -88,6 +88,12 @@ public class ModBlocks {
     public static final Block SIGN_SEEITSAYITSORTED = registerBlock("sign_seeitsayitsorted",
             new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
 
+    public static final Block SIGN_NOENTRY = registerBlock("sign_noentry",
+            new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+
+    public static final Block SIGN_CCTV_SMALL = registerBlock("sign_cctv_small",
+            new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ScottysLondonUnderground.MOD_ID, name), block);

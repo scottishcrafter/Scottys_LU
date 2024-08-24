@@ -32,6 +32,8 @@
 
   "block.scottylu.cctv_fc": "CCTV Sign (Fat Controller)",
   "block.scottylu.cctv_aa": "CCTV Sign (An Adult)",
-  "block.scottylu.sign_seeitsayitsorted": "See It, Say It, Sorted. Sign"
+  "block.scottylu.sign_seeitsayitsorted": "See It, Say It, Sorted. Sign",
+  "block.scottylu.sign_noentry": "No Entry Sign",
+  "block.scottylu.sign_cctv_small": "Small CCTV Sign"
 
 }
