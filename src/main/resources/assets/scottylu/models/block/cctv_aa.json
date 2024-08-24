@@ -1,9 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "scottylu:block/signs/cctv_fc",
 		"1": "scottylu:block/signs/cctv_aa",
-		"particle": "scottylu:block/signs/cctv_fc"
+		"particle": "scottylu:block/signs/cctv_aa"
 	},
 	"elements": [
 		{
@@ -12,7 +11,7 @@
 			"faces": {
 				"north": {"uv": [0, 0, 2, 2.375], "texture": "#1"},
 				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
 				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
 				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
 				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
