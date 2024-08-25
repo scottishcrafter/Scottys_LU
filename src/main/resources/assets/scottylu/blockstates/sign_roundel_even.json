@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "scottylu:block/sign_roundel_even" },
+    "facing=east": { "model": "scottylu:block/sign_roundel_even", "y": 90 },
+    "facing=south": { "model": "scottylu:block/sign_roundel_even", "y": 180 },
+    "facing=west": { "model": "scottylu:block/sign_roundel_even", "y": 270 }
+  }
+}
