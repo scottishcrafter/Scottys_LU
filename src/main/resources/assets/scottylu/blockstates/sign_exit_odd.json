@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "scottylu:block/sign_exit_odd" },
+    "facing=east": { "model": "scottylu:block/sign_exit_odd", "y": 90 },
+    "facing=south": { "model": "scottylu:block/sign_exit_odd", "y": 180 },
+    "facing=west": { "model": "scottylu:block/sign_exit_odd", "y": 270 }
+  }
+}
