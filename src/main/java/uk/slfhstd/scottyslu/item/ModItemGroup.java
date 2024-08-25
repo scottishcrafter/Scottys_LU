@@ -59,6 +59,18 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SIGN_SEEITSAYITSORTED);
                         entries.add(ModBlocks.SIGN_NOENTRY);
                         entries.add(ModBlocks.SIGN_CCTV_SMALL);
+                        entries.add(ModBlocks.SIGN_BEWARE_TRAINS);
+                        entries.add(ModBlocks.SIGN_PLATFORM_1);
+                        entries.add(ModBlocks.SIGN_PLATFORM_2);
+                        entries.add(ModBlocks.SIGN_PLATFORM_3);
+                        entries.add(ModBlocks.SIGN_PLATFORM_4);
+
+                        entries.add(ModBlocks.SIGN_POLE_BEWARE_TRAINS);
+                        entries.add(ModBlocks.SIGN_POLE_CCTV_SMALL);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_1);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_2);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_3);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_4);
 
                     }).build());
     public static void registerItemGroups() {

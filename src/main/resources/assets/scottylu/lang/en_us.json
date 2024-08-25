@@ -36,6 +36,20 @@
   "block.scottylu.cctv_aa": "CCTV Sign (An Adult)",
   "block.scottylu.sign_seeitsayitsorted": "See It, Say It, Sorted. Sign",
   "block.scottylu.sign_noentry": "No Entry Sign",
-  "block.scottylu.sign_cctv_small": "Small CCTV Sign"
+  "block.scottylu.sign_cctv_small": "Small CCTV Sign",
+  "block.scottylu.sign_beware_trains": "Beware Of Trains Sign",
+  "block.scottylu.sign_platform_1": "Platform 1 Sign",
+  "block.scottylu.sign_platform_2": "Platform 2 Sign",
+  "block.scottylu.sign_platform_3": "Platform 3 Sign",
+  "block.scottylu.sign_platform_4": "Platform 4 Sign",
+
+
+
+  "block.scottylu.sign_pole_cctv_small": "CCTV Small Sign (On Pole)",
+  "block.scottylu.sign_pole_platform_1": "Platform 1 Sign (On Pole)",
+  "block.scottylu.sign_pole_platform_2": "Platform 2 Sign (On Pole)",
+  "block.scottylu.sign_pole_platform_3": "Platform 3 Sign (On Pole)",
+  "block.scottylu.sign_pole_platform_4": "Platform 4 Sign (On Pole)"
+
 
 }

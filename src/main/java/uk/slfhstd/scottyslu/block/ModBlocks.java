@@ -95,7 +95,40 @@ public class ModBlocks {
     public static final Block SIGN_CCTV_SMALL = registerBlock("sign_cctv_small",
             new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
 
+    public static final Block SIGN_BEWARE_TRAINS = registerBlock("sign_beware_trains",
+            new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+
+    public static final Block SIGN_PLATFORM_1 = registerBlock("sign_platform_1",
+            new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+
+    public static final Block SIGN_PLATFORM_2 = registerBlock("sign_platform_2",
+            new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+
+    public static final Block SIGN_PLATFORM_3 = registerBlock("sign_platform_3",
+            new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+
+    public static final Block SIGN_PLATFORM_4 = registerBlock("sign_platform_4",
+            new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+
     public static final Block STATION_POLE = registerBlock("station_pole",
+            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    public static final Block SIGN_POLE_BEWARE_TRAINS = registerBlock("sign_pole_beware_trains",
+            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    public static final Block SIGN_POLE_PLATFORM_1 = registerBlock("sign_pole_platform_1",
+            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    public static final Block SIGN_POLE_PLATFORM_2 = registerBlock("sign_pole_platform_2",
+            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    public static final Block SIGN_POLE_PLATFORM_3 = registerBlock("sign_pole_platform_3",
+            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    public static final Block SIGN_POLE_PLATFORM_4 = registerBlock("sign_pole_platform_4",
+            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    public static final Block SIGN_POLE_CCTV_SMALL = registerBlock("sign_pole_cctv_small",
             new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {

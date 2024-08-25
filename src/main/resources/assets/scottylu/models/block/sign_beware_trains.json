@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "scottylu:block/signs/stop_look_listen",
+		"particle": "scottylu:block/signs/stop_look_listen"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.02],
+			"to": [16, 22, 0.02],
+			"faces": {
+				"north": {"uv": [11.5, 2.375, 14.5, 5.25], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	]
+}
