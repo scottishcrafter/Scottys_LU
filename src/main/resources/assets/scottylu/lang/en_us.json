@@ -7,6 +7,7 @@
   "itemgroup.scotty_colours": "Scotty's LU Colours",
   "itemgroup.scotty_line_colours": "Scotty's LU Line Colours",
   "itemgroup.scotty_signs": "Scotty's LU Signs",
+  "itemgroup.scotty_signs_poles": "Scotty's LU Signs on Poles",
 
   "block.scottylu.helppoint_even": "Help Point (Even)",
   "block.scottylu.helppoint_odd": "Help Point (Odd)",
@@ -52,7 +53,11 @@
   "block.scottylu.sign_pole_platform_1": "Platform 1 Sign (On Pole)",
   "block.scottylu.sign_pole_platform_2": "Platform 2 Sign (On Pole)",
   "block.scottylu.sign_pole_platform_3": "Platform 3 Sign (On Pole)",
-  "block.scottylu.sign_pole_platform_4": "Platform 4 Sign (On Pole)"
+  "block.scottylu.sign_pole_platform_4": "Platform 4 Sign (On Pole)",
+  "block.scottylu.sign_pole_platform_1_double": "Platform 1 Sign (On Pole - Double)",
+  "block.scottylu.sign_pole_platform_2_double": "Platform 2 Sign (On Pole - Double)",
+  "block.scottylu.sign_pole_platform_3_double": "Platform 3 Sign (On Pole - Double)",
+  "block.scottylu.sign_pole_platform_4_double": "Platform 4 Sign (On Pole - Double)"
 
 
 }

@@ -18,6 +18,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.HELPPOINT_EVEN);
                         entries.add(ModBlocks.HELPPOINT_ODD);
                         entries.add(ModBlocks.STATION_POLE);
+                        entries.add(ModBlocks.SIGN_EXIT_EVEN);
+                        entries.add(ModBlocks.SIGN_EXIT_ODD);
 
                     }).build());
 
@@ -53,7 +55,7 @@ public class ModItemGroup {
 
     public static final ItemGroup SCOTTY_LU_SIGNS = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_signs"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scotty_signs"))
-                    .icon(() -> new ItemStack(ModBlocks.CCTV_FC)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.SIGN_CCTV_SMALL)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.CCTV_AA);
                         entries.add(ModBlocks.CCTV_FC);
                         entries.add(ModBlocks.SIGN_SEEITSAYITSORTED);
@@ -65,8 +67,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SIGN_PLATFORM_2);
                         entries.add(ModBlocks.SIGN_PLATFORM_3);
                         entries.add(ModBlocks.SIGN_PLATFORM_4);
-                        entries.add(ModBlocks.SIGN_EXIT_EVEN);
-                        entries.add(ModBlocks.SIGN_EXIT_ODD);
+
 
                         entries.add(ModBlocks.SIGN_POLE_BEWARE_TRAINS);
                         entries.add(ModBlocks.SIGN_POLE_CCTV_SMALL);
@@ -74,6 +75,27 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SIGN_POLE_PLATFORM_2);
                         entries.add(ModBlocks.SIGN_POLE_PLATFORM_3);
                         entries.add(ModBlocks.SIGN_POLE_PLATFORM_4);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_1_DOUBLE);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_2_DOUBLE);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_3_DOUBLE);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_4_DOUBLE);
+
+                    }).build());
+
+    public static final ItemGroup SCOTTY_LU_SIGNS_POLES = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_signs_poles"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scotty_signs_poles"))
+                    .icon(() -> new ItemStack(ModBlocks.SIGN_POLE_PLATFORM_1)).entries((displayContext, entries) -> {
+
+                        entries.add(ModBlocks.SIGN_POLE_BEWARE_TRAINS);
+                        entries.add(ModBlocks.SIGN_POLE_CCTV_SMALL);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_1);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_2);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_3);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_4);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_1_DOUBLE);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_2_DOUBLE);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_3_DOUBLE);
+                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_4_DOUBLE);
 
                     }).build());
     public static void registerItemGroups() {

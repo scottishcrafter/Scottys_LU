@@ -22,9 +22,13 @@ public class ScottysLondonUndergroundClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_BEWARE_TRAINS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_CCTV_SMALL, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_PLATFORM_1, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_PLATFORM_1_DOUBLE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_PLATFORM_2, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_PLATFORM_2_DOUBLE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_PLATFORM_3, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_PLATFORM_3_DOUBLE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_PLATFORM_4, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_POLE_PLATFORM_4_DOUBLE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_EXIT_EVEN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_EXIT_ODD, RenderLayer.getTranslucent());
 
