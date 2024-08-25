@@ -12,6 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import uk.slfhstd.scottyslu.ScottysLondonUnderground;
 import uk.slfhstd.scottyslu.block.custom.CustomBlock;
+import uk.slfhstd.scottyslu.block.custom.CustomPole;
 import uk.slfhstd.scottyslu.block.custom.CustomSign;
 
 public class ModBlocks {
@@ -93,6 +94,9 @@ public class ModBlocks {
 
     public static final Block SIGN_CCTV_SMALL = registerBlock("sign_cctv_small",
             new CustomSign(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+
+    public static final Block STATION_POLE = registerBlock("station_pole",
+            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

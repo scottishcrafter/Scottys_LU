@@ -17,6 +17,7 @@ public class ModItemGroup {
                         entries.add(ModItems.OYSTER);
                         entries.add(ModBlocks.HELPPOINT_EVEN);
                         entries.add(ModBlocks.HELPPOINT_ODD);
+                        entries.add(ModBlocks.STATION_POLE);
 
                     }).build());
 

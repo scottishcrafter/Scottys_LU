@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "scottylu:block/station_pole" },
+    "facing=east": { "model": "scottylu:block/station_pole", "y": 90 },
+    "facing=south": { "model": "scottylu:block/station_pole", "y": 180 },
+    "facing=west": { "model": "scottylu:block/station_pole", "y": 270 }
+  }
+}
