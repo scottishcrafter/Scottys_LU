@@ -11,15 +11,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import uk.slfhstd.scottyslu.ScottysLondonUnderground;
-import uk.slfhstd.scottyslu.block.custom.CustomBlock;
-import uk.slfhstd.scottyslu.block.custom.CustomBlockOpp;
-import uk.slfhstd.scottyslu.block.custom.CustomPole;
-import uk.slfhstd.scottyslu.block.custom.CustomSign;
+import uk.slfhstd.scottyslu.block.custom.*;
+import org.mtr.mod.block.BlockTicketMachine;
 
 public class ModBlocks {
 
     //public static final Block TICKET_MACHINE = registerBlock("ticket_machine",
-    //        new BlockTicketMachine(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    //        new CustomTicket(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
     public static final Block COLOUR_TUBE = registerBlock("colour_tube",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
@@ -162,6 +160,9 @@ public class ModBlocks {
 
     public static final Block SIGN_POLE_CCTV_SMALL = registerBlock("sign_pole_cctv_small",
             new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    public static final Block STATION_BIN = registerBlock("station_bin",
+            new CustomBlockTall(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

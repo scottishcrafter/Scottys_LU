@@ -6,8 +6,8 @@
       "flip_texture": false,
       "custom_text": "",
       "flip_custom_text": false,
-      "small": false,
-      "background_color": "ffffff"
+      "small": true,
+      "background_color": ""
 
     },
     "platform1": {
@@ -15,24 +15,24 @@
       "flip_texture": false,
       "custom_text": "",
       "flip_custom_text": false,
-      "small": false,
-      "background_color": "ffffff"
+      "small": true,
+      "background_color": ""
     },
     "platform2": {
       "texture_id": "mtr:custom_textures/platform_2.png",
       "flip_texture": false,
       "custom_text": "",
       "flip_custom_text": false,
-      "small": false,
-      "background_color": "ffffff"
+      "small": true,
+      "background_color": ""
     },
     "platform3": {
       "texture_id": "mtr:custom_textures/platform_3.png",
       "flip_texture": false,
       "custom_text": "",
       "flip_custom_text": false,
-      "small": false,
-      "background_color": "ffffff"
+      "small": true,
+      "background_color": ""
     },
 
     "platform4": {
@@ -40,8 +40,8 @@
       "flip_texture": false,
       "custom_text": "",
       "flip_custom_text": false,
-      "small": false,
-      "background_color": "ffffff"
+      "small": true,
+      "background_color": ""
     }
   }
 }
