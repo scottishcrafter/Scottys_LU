@@ -60,7 +60,9 @@
   "block.scottylu.sign_pole_platform_1_double": "Platform 1 Sign (On Pole - Double)",
   "block.scottylu.sign_pole_platform_2_double": "Platform 2 Sign (On Pole - Double)",
   "block.scottylu.sign_pole_platform_3_double": "Platform 3 Sign (On Pole - Double)",
-  "block.scottylu.sign_pole_platform_4_double": "Platform 4 Sign (On Pole - Double)"
+  "block.scottylu.sign_pole_platform_4_double": "Platform 4 Sign (On Pole - Double)",
+
+  "gui.scottylu.bin_message": "Thanks for keeping The Tube tidy!"
 
 
 }
