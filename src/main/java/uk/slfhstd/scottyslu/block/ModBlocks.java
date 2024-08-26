@@ -83,10 +83,10 @@ public class ModBlocks {
             new CustomBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
 
     public static final Block SIGN_EXIT_EVEN = registerBlock("sign_exit_even",
-            new CustomBlockOpp(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(7)));
+            new CustomBlockOpp(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(15)));
 
     public static final Block SIGN_EXIT_ODD = registerBlock("sign_exit_odd",
-            new CustomBlockOpp(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(8)));
+            new CustomBlockOpp(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(15)));
 
     public static final Block CCTV_FC = registerBlock("cctv_fc",
             new CustomSign(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
