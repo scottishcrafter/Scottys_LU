@@ -20,6 +20,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.STATION_POLE);
                         entries.add(ModBlocks.SIGN_EXIT_EVEN);
                         entries.add(ModBlocks.SIGN_EXIT_ODD);
+                        entries.add(ModBlocks.TICKET_MACHINE);
 
                     }).build());
 

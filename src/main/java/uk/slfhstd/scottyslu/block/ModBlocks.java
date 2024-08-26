@@ -18,6 +18,9 @@ import uk.slfhstd.scottyslu.block.custom.CustomSign;
 
 public class ModBlocks {
 
+    public static final Block TICKET_MACHINE = registerBlock("ticket_machine",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
     public static final Block COLOUR_TUBE = registerBlock("colour_tube",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
