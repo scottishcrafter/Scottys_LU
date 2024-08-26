@@ -1,0 +1,47 @@
+
+{
+  "custom_signs": {
+    "no_entry": {
+      "texture_id": "mtr:custom_textures/no_entry.png",
+      "flip_texture": false,
+      "custom_text": "",
+      "flip_custom_text": false,
+      "small": false,
+      "background_color": "ffffff"
+
+    },
+    "platform1": {
+      "texture_id": "mtr:custom_textures/platform_1.png",
+      "flip_texture": false,
+      "custom_text": "",
+      "flip_custom_text": false,
+      "small": false,
+      "background_color": "ffffff"
+    },
+    "platform2": {
+      "texture_id": "mtr:custom_textures/platform_2.png",
+      "flip_texture": false,
+      "custom_text": "",
+      "flip_custom_text": false,
+      "small": false,
+      "background_color": "ffffff"
+    },
+    "platform3": {
+      "texture_id": "mtr:custom_textures/platform_3.png",
+      "flip_texture": false,
+      "custom_text": "",
+      "flip_custom_text": false,
+      "small": false,
+      "background_color": "ffffff"
+    },
+
+    "platform4": {
+      "texture_id": "mtr:custom_textures/platform_4.png",
+      "flip_texture": false,
+      "custom_text": "",
+      "flip_custom_text": false,
+      "small": false,
+      "background_color": "ffffff"
+    }
+  }
+}
