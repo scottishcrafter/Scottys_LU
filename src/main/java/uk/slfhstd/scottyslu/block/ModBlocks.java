@@ -30,6 +30,12 @@ public class ModBlocks {
     public static final Block FLOOR_SIGN_PLATFORM_4 = registerBlock("floor_sign_platform_4",
             new FloorSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
+    public static final Block FLOOR_SIGN_MTG = registerBlock("floor_sign_mtg",
+            new FloorSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block FLOOR_SIGN_BYL = registerBlock("floor_sign_byl",
+            new FloorSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
     public static final Block COLOUR_TUBE = registerBlock("colour_tube",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 

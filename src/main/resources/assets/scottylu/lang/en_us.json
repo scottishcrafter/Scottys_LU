@@ -11,6 +11,7 @@
   "itemgroup.scotty_line_colours": "Scotty's LU Line Colours",
   "itemgroup.scotty_signs": "Scotty's LU Signs",
   "itemgroup.scotty_signs_poles": "Scotty's LU Signs on Poles",
+  "itemgroup.scotty_signs_floor": "Scotty's LU Floor Signs",
 
   "block.scottylu.helppoint_even": "Help Point",
   "block.scottylu.colour_tube": "Tube",
@@ -53,6 +54,8 @@
   "block.scottylu.floor_sign_platform_2": "Platform 2 Sign (Floor)",
   "block.scottylu.floor_sign_platform_3": "Platform 3 Sign (Floor)",
   "block.scottylu.floor_sign_platform_4": "Platform 4 Sign (Floor)",
+  "block.scottylu.floor_sign_mtg": "MIND THE GAP",
+  "block.scottylu.floor_sign_byl": "STAND BEHIND YELLOW LINE",
 
 
 
