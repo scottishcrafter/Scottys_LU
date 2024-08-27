@@ -69,10 +69,18 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SIGN_PLATFORM_3);
                         entries.add(ModBlocks.SIGN_PLATFORM_4);
                         entries.add(ModBlocks.SIGN_ROUNDEL_EVEN);
+
+                    }).build());
+
+    public static final ItemGroup SCOTTY_LU_FLOOR_SIGNS = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_floor_signs"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scotty_signs_floor"))
+                    .icon(() -> new ItemStack(ModBlocks.SIGN_PLATFORM_1)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_1);
                         entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_2);
                         entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_3);
                         entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_4);
+                        entries.add(ModBlocks.FLOOR_SIGN_MTG);
+                        entries.add(ModBlocks.FLOOR_SIGN_BYL);
                     }).build());
 
     public static final ItemGroup SCOTTY_LU_SIGNS_POLES = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_signs_poles"),

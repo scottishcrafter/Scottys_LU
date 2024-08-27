@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "scottylu:block/signs/byl_floor",
+		"particle": "scottylu:block/signs/byl_floor"
+	},
+	"elements": [
+		{
+			"from": [-16, 0.1, 2],
+			"to": [32, 0.1, 7],
+			"faces": {
+				"north": {"uv": [0.125, 12.375, 14.75, 14.625], "texture": "#0"},
+				"east": {"uv": [0.125, 12.375, 14.75, 14.625], "texture": "#0"},
+				"south": {"uv": [0.125, 12.375, 14.75, 14.625], "texture": "#0"},
+				"west": {"uv": [0.125, 12.375, 14.75, 14.625], "texture": "#0"},
+				"up": {"uv": [0, 4.75, 16, 11.25], "texture": "#0"},
+				"down": {"uv": [0.125, 12.375, 14.75, 14.625], "texture": "#0"}
+			}
+		}
+	]
+}
