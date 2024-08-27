@@ -1,3 +1,6 @@
 {
-  "parent": "scottylu:block/cctv_aa"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scottylu:item/cctv_aa"
+  }
 }

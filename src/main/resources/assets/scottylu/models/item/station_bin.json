@@ -1,3 +1,6 @@
 {
-  "parent": "scottylu:block/station_bin"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scottylu:item/station_bin"
+  }
 }

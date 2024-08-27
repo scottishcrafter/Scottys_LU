@@ -1,3 +1,6 @@
 {
-  "parent": "scottylu:block/sign_beware_trains"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scottylu:item/sign_beware_trains"
+  }
 }

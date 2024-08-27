@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.client.Model;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -12,7 +11,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import uk.slfhstd.scottyslu.ScottysLondonUnderground;
 import uk.slfhstd.scottyslu.block.custom.*;
-import org.mtr.mod.block.BlockTicketMachine;
 
 public class ModBlocks {
 
@@ -80,7 +78,7 @@ public class ModBlocks {
             new CustomModelChange(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
 
     public static final Block SIGN_EXIT_EVEN = registerBlock("sign_exit_even",
-            new CustomModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(15)));
+            new CustomModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(200)));
 
 
     public static final Block CCTV_FC = registerBlock("cctv_fc",

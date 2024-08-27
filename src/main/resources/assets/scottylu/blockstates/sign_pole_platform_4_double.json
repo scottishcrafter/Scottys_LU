@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "scottylu:block/sign_pole_platform_4_double" },
-    "facing=east": { "model": "scottylu:block/sign_pole_platform_4_double", "y": 90 },
-    "facing=south": { "model": "scottylu:block/sign_pole_platform_4_double", "y": 180 },
-    "facing=west": { "model": "scottylu:block/sign_pole_platform_4_double", "y": 270 }
-  }
-}
