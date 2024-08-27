@@ -67,7 +67,6 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SIGN_PLATFORM_3);
                         entries.add(ModBlocks.SIGN_PLATFORM_4);
                         entries.add(ModBlocks.SIGN_ROUNDEL_EVEN);
-                        entries.add(ModBlocks.SIGN_ROUNDEL_ODD);
                     }).build());
 
     public static final ItemGroup SCOTTY_LU_SIGNS_POLES = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_signs_poles"),

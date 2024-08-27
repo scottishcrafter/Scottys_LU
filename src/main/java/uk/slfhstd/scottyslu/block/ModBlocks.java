@@ -79,9 +79,6 @@ public class ModBlocks {
     public static final Block HELPPOINT_EVEN = registerBlock("helppoint_even",
             new CustomModelChange(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
 
-    public static final Block HELPPOINT_ODD = registerBlock("helppoint_odd",
-            new CustomBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
-
     public static final Block SIGN_EXIT_EVEN = registerBlock("sign_exit_even",
             new CustomModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(15)));
 
@@ -99,10 +96,7 @@ public class ModBlocks {
             new CustomSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block SIGN_ROUNDEL_EVEN = registerBlock("sign_roundel_even",
-            new CustomSign(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
-
-    public static final Block SIGN_ROUNDEL_ODD = registerBlock("sign_roundel_odd",
-            new CustomSign(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+            new CustomSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block SIGN_CCTV_SMALL = registerBlock("sign_cctv_small",
             new CustomSign(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));

@@ -15,6 +15,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.HELPPOINT_EVEN);
         addDrop(ModBlocks.STATION_BIN);
         addDrop(ModBlocks.SIGN_ROUNDEL_EVEN);
+        addDrop(ModBlocks.COLOUR_TUBE);
 
 
     }

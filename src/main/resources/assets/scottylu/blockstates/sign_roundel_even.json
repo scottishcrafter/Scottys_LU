@@ -1,8 +1,12 @@
 {
   "variants": {
-    "facing=north": { "model": "scottylu:block/sign_roundel_even" },
-    "facing=east": { "model": "scottylu:block/sign_roundel_even", "y": 90 },
-    "facing=south": { "model": "scottylu:block/sign_roundel_even", "y": 180 },
-    "facing=west": { "model": "scottylu:block/sign_roundel_even", "y": 270 }
+    "activated=false,facing=north": { "model": "scottylu:block/sign_roundel_even" },
+    "activated=true,facing=north": { "model": "scottylu:block/sign_roundel_odd" },
+    "activated=false,facing=east": { "model": "scottylu:block/sign_roundel_even", "y": 90 },
+    "activated=true,facing=east": { "model": "scottylu:block/sign_roundel_odd", "y": 90 },
+    "activated=false,facing=south": { "model": "scottylu:block/sign_roundel_even", "y": 180 },
+    "activated=true,facing=south": { "model": "scottylu:block/sign_roundel_odd", "y": 180 },
+    "activated=false,facing=west": { "model": "scottylu:block/sign_roundel_even", "y": 270 },
+    "activated=true,facing=west": { "model": "scottylu:block/sign_roundel_odd", "y": 270 }
   }
 }
