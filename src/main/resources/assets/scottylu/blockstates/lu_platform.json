@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "scottylu:block/lu_platform" },
+    "facing=east": { "model": "scottylu:block/lu_platform", "y": 90 },
+    "facing=south": { "model": "scottylu:block/lu_platform", "y": 180 },
+    "facing=west": { "model": "scottylu:block/lu_platform", "y": 270 }
+  }
+}

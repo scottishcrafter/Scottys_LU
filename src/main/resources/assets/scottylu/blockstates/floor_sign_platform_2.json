@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "activated=false,facing=north": { "model": "scottylu:block/floor_sign_platform_2_even" },
+    "activated=true,facing=north": { "model": "scottylu:block/floor_sign_platform_2_odd" },
+    "activated=false,facing=east": { "model": "scottylu:block/floor_sign_platform_2_even", "y": 90 },
+    "activated=true,facing=east": { "model": "scottylu:block/floor_sign_platform_2_odd", "y": 90 },
+    "activated=false,facing=south": { "model": "scottylu:block/floor_sign_platform_2_even", "y": 180 },
+    "activated=true,facing=south": { "model": "scottylu:block/floor_sign_platform_2_odd", "y": 180 },
+    "activated=false,facing=west": { "model": "scottylu:block/floor_sign_platform_2_even", "y": 270 },
+    "activated=true,facing=west": { "model": "scottylu:block/floor_sign_platform_2_odd", "y": 270 }
+  }
+}

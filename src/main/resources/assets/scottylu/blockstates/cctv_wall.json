@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "activated=false,facing=north": { "model": "scottylu:block/cctv_wall" },
+    "activated=true,facing=north": { "model": "scottylu:block/cctv_wall_odd" },
+    "activated=false,facing=east": { "model": "scottylu:block/cctv_wall", "y": 90 },
+    "activated=true,facing=east": { "model": "scottylu:block/cctv_wall_odd", "y": 90 },
+    "activated=false,facing=south": { "model": "scottylu:block/cctv_wall", "y": 180 },
+    "activated=true,facing=south": { "model": "scottylu:block/cctv_wall_odd", "y": 180 },
+    "activated=false,facing=west": { "model": "scottylu:block/cctv_wall", "y": 270 },
+    "activated=true,facing=west": { "model": "scottylu:block/cctv_wall_odd", "y": 270 }
+  }
+}

@@ -26,6 +26,12 @@ public class ScottysLondonUndergroundClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_EXIT_EVEN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIGN_ROUNDEL_EVEN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STATION_BIN, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CCTV_WALL, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CCTV_CEILING, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLOOR_SIGN_PLATFORM_1, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLOOR_SIGN_PLATFORM_2, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLOOR_SIGN_PLATFORM_3, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLOOR_SIGN_PLATFORM_4, RenderLayer.getTranslucent());
         //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TICKET_MACHINE, RenderLayer.getTranslucent());
 
 
