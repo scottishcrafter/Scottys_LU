@@ -77,16 +77,14 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
     public static final Block HELPPOINT_EVEN = registerBlock("helppoint_even",
-            new CustomBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
+            new CustomModelChange(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
 
     public static final Block HELPPOINT_ODD = registerBlock("helppoint_odd",
             new CustomBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
 
     public static final Block SIGN_EXIT_EVEN = registerBlock("sign_exit_even",
-            new CustomBlockOpp(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(15)));
+            new CustomModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(15)));
 
-    public static final Block SIGN_EXIT_ODD = registerBlock("sign_exit_odd",
-            new CustomBlockOpp(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(15)));
 
     public static final Block CCTV_FC = registerBlock("cctv_fc",
             new CustomSign(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
@@ -98,10 +96,7 @@ public class ModBlocks {
             new CustomSign(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block SIGN_NOENTRY = registerBlock("sign_noentry",
-            new CustomSign(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
-
-    public static final Block SIGN_NOENTRY_ODD = registerBlock("sign_noentry_odd",
-            new CustomSign(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+            new CustomSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block SIGN_ROUNDEL_EVEN = registerBlock("sign_roundel_even",
             new CustomSign(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
@@ -134,29 +129,16 @@ public class ModBlocks {
             new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     public static final Block SIGN_POLE_PLATFORM_1 = registerBlock("sign_pole_platform_1",
-            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
-
-    public static final Block SIGN_POLE_PLATFORM_1_DOUBLE = registerBlock("sign_pole_platform_1_double",
-            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+            new CustomPoleModelChange(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     public static final Block SIGN_POLE_PLATFORM_2 = registerBlock("sign_pole_platform_2",
-            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
-
-    public static final Block SIGN_POLE_PLATFORM_2_DOUBLE = registerBlock("sign_pole_platform_2_double",
-            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
-
+            new CustomPoleModelChange(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     public static final Block SIGN_POLE_PLATFORM_3 = registerBlock("sign_pole_platform_3",
-            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
-
-    public static final Block SIGN_POLE_PLATFORM_3_DOUBLE = registerBlock("sign_pole_platform_3_double",
-            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+            new CustomPoleModelChange(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     public static final Block SIGN_POLE_PLATFORM_4 = registerBlock("sign_pole_platform_4",
-            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
-
-    public static final Block SIGN_POLE_PLATFORM_4_DOUBLE = registerBlock("sign_pole_platform_4_double",
-            new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+            new CustomPoleModelChange(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     public static final Block SIGN_POLE_CCTV_SMALL = registerBlock("sign_pole_cctv_small",
             new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));

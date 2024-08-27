@@ -13,7 +13,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.HELPPOINT_EVEN);
-        addDrop(ModBlocks.HELPPOINT_ODD);
+        addDrop(ModBlocks.STATION_BIN);
+        addDrop(ModBlocks.SIGN_ROUNDEL_EVEN);
 
 
     }

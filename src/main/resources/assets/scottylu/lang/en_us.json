@@ -4,14 +4,15 @@
   "block.scottylu.station_pole": "Station Pole",
   "block.scottylu.station_bin": "Station Bin",
 
+  "block.scottylu.model_swap.tooltip": "Right-click for model variants",
+
   "itemgroup.scotty": "Scotty's London Underground",
   "itemgroup.scotty_colours": "Scotty's LU Colours",
   "itemgroup.scotty_line_colours": "Scotty's LU Line Colours",
   "itemgroup.scotty_signs": "Scotty's LU Signs",
   "itemgroup.scotty_signs_poles": "Scotty's LU Signs on Poles",
 
-  "block.scottylu.helppoint_even": "Help Point (Even)",
-  "block.scottylu.helppoint_odd": "Help Point (Odd)",
+  "block.scottylu.helppoint_even": "Help Point",
   "block.scottylu.colour_tube": "Tube",
   "block.scottylu.colour_dlr": "DLR",
   "block.scottylu.colour_lizzie": "Elizabeth Line",
@@ -37,8 +38,7 @@
   "block.scottylu.cctv_fc": "CCTV Sign (Fat Controller)",
   "block.scottylu.cctv_aa": "CCTV Sign (An Adult)",
   "block.scottylu.sign_seeitsayitsorted": "See It, Say It, Sorted. Sign",
-  "block.scottylu.sign_noentry": "No Entry Sign (Even)",
-  "block.scottylu.sign_noentry_odd": "No Entry Sign (Odd)",
+  "block.scottylu.sign_noentry": "No Entry Sign",
   "block.scottylu.sign_cctv_small": "Small CCTV Sign",
   "block.scottylu.sign_beware_trains": "Beware Of Trains Sign",
   "block.scottylu.sign_platform_1": "Platform 1 Sign",
@@ -57,10 +57,6 @@
   "block.scottylu.sign_pole_platform_2": "Platform 2 Sign (On Pole)",
   "block.scottylu.sign_pole_platform_3": "Platform 3 Sign (On Pole)",
   "block.scottylu.sign_pole_platform_4": "Platform 4 Sign (On Pole)",
-  "block.scottylu.sign_pole_platform_1_double": "Platform 1 Sign (On Pole - Double)",
-  "block.scottylu.sign_pole_platform_2_double": "Platform 2 Sign (On Pole - Double)",
-  "block.scottylu.sign_pole_platform_3_double": "Platform 3 Sign (On Pole - Double)",
-  "block.scottylu.sign_pole_platform_4_double": "Platform 4 Sign (On Pole - Double)",
 
   "gui.scottylu.bin_message": "Thanks for keeping The Tube tidy!"
 

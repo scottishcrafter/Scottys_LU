@@ -16,10 +16,8 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.OYSTER)).entries((displayContext, entries) -> {
                         entries.add(ModItems.OYSTER);
                         entries.add(ModBlocks.HELPPOINT_EVEN);
-                        entries.add(ModBlocks.HELPPOINT_ODD);
                         entries.add(ModBlocks.STATION_POLE);
                         entries.add(ModBlocks.SIGN_EXIT_EVEN);
-                        entries.add(ModBlocks.SIGN_EXIT_ODD);
                         entries.add(ModBlocks.STATION_BIN);
                         //entries.add(ModBlocks.TICKET_MACHINE);
 
@@ -62,7 +60,6 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CCTV_FC);
                         entries.add(ModBlocks.SIGN_SEEITSAYITSORTED);
                         entries.add(ModBlocks.SIGN_NOENTRY);
-                        entries.add(ModBlocks.SIGN_NOENTRY_ODD);
                         entries.add(ModBlocks.SIGN_CCTV_SMALL);
                         entries.add(ModBlocks.SIGN_BEWARE_TRAINS);
                         entries.add(ModBlocks.SIGN_PLATFORM_1);
@@ -83,10 +80,6 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SIGN_POLE_PLATFORM_2);
                         entries.add(ModBlocks.SIGN_POLE_PLATFORM_3);
                         entries.add(ModBlocks.SIGN_POLE_PLATFORM_4);
-                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_1_DOUBLE);
-                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_2_DOUBLE);
-                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_3_DOUBLE);
-                        entries.add(ModBlocks.SIGN_POLE_PLATFORM_4_DOUBLE);
 
                     }).build());
     public static void registerItemGroups() {
