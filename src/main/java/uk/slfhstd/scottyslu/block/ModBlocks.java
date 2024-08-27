@@ -9,6 +9,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import org.mtr.mapping.mapper.BlockHelper;
 import uk.slfhstd.scottyslu.ScottysLondonUnderground;
 import uk.slfhstd.scottyslu.block.custom.*;
 
@@ -16,6 +17,18 @@ public class ModBlocks {
 
     //public static final Block TICKET_MACHINE = registerBlock("ticket_machine",
     //        new CustomTicket(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block FLOOR_SIGN_PLATFORM_1 = registerBlock("floor_sign_platform_1",
+            new FloorSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block FLOOR_SIGN_PLATFORM_2 = registerBlock("floor_sign_platform_2",
+            new FloorSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block FLOOR_SIGN_PLATFORM_3 = registerBlock("floor_sign_platform_3",
+            new FloorSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block FLOOR_SIGN_PLATFORM_4 = registerBlock("floor_sign_platform_4",
+            new FloorSignModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
     public static final Block COLOUR_TUBE = registerBlock("colour_tube",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
@@ -78,7 +91,7 @@ public class ModBlocks {
             new CustomModelChange(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
 
     public static final Block SIGN_EXIT_EVEN = registerBlock("sign_exit_even",
-            new CustomModelChange(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().luminance(200)));
+            new ExitSign(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK).nonOpaque().luminance(15)));
 
 
     public static final Block CCTV_FC = registerBlock("cctv_fc",
@@ -137,6 +150,15 @@ public class ModBlocks {
 
     public static final Block STATION_BIN = registerBlock("station_bin",
             new CustomBlockTall(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    public static final Block CCTV_WALL = registerBlock("cctv_wall",
+            new CctvCamera(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    public static final Block CCTV_CEILING = registerBlock("cctv_ceiling",
+            new CctvCamera(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+
+    //public static final Block LU_PLATFORM = registerBlock("lu_platform",
+    //        new SLUPlatformBlock(BlockHelper.createBlockSettings(true).strength(2), true));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

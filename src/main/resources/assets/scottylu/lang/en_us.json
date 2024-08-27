@@ -49,6 +49,12 @@
   "block.scottylu.sign_roundel_even": "LU Roundel",
 
 
+  "block.scottylu.floor_sign_platform_1": "Platform 1 Sign (Floor)",
+  "block.scottylu.floor_sign_platform_2": "Platform 2 Sign (Floor)",
+  "block.scottylu.floor_sign_platform_3": "Platform 3 Sign (Floor)",
+  "block.scottylu.floor_sign_platform_4": "Platform 4 Sign (Floor)",
+
+
 
   "block.scottylu.sign_pole_cctv_small": "CCTV Small Sign (On Pole)",
   "block.scottylu.sign_pole_beware_trains": "Beware of Trains Sign (On Pole)",
@@ -56,6 +62,10 @@
   "block.scottylu.sign_pole_platform_2": "Platform 2 Sign (On Pole)",
   "block.scottylu.sign_pole_platform_3": "Platform 3 Sign (On Pole)",
   "block.scottylu.sign_pole_platform_4": "Platform 4 Sign (On Pole)",
+
+  "block.scottylu.cctv_ceiling": "CCTV Camera (Ceiling Mount)",
+  "block.scottylu.cctv_wall": "CCTV Camera (Wall Mount)",
+  "block.scottylu.lu_platform": "London Underground Platform",
 
   "gui.scottylu.bin_message": "Thanks for keeping The Tube tidy!"
 

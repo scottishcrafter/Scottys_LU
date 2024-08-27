@@ -19,6 +19,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.STATION_POLE);
                         entries.add(ModBlocks.SIGN_EXIT_EVEN);
                         entries.add(ModBlocks.STATION_BIN);
+                        entries.add(ModBlocks.CCTV_WALL);
+                        entries.add(ModBlocks.CCTV_CEILING);
                         //entries.add(ModBlocks.TICKET_MACHINE);
 
                     }).build());
@@ -67,6 +69,10 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SIGN_PLATFORM_3);
                         entries.add(ModBlocks.SIGN_PLATFORM_4);
                         entries.add(ModBlocks.SIGN_ROUNDEL_EVEN);
+                        entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_1);
+                        entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_2);
+                        entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_3);
+                        entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_4);
                     }).build());
 
     public static final ItemGroup SCOTTY_LU_SIGNS_POLES = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_signs_poles"),

@@ -27,7 +27,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class CustomPoleModelChange extends HorizontalFacingBlock {
+public class ExitSign extends HorizontalFacingBlock {
 
     public static final BooleanProperty ACTIVATED = BooleanProperty.of("activated");
 
@@ -37,7 +37,7 @@ public class CustomPoleModelChange extends HorizontalFacingBlock {
         builder.add(Properties.HORIZONTAL_FACING);
     }
 
-    public CustomPoleModelChange(Settings settings) {
+    public ExitSign(Settings settings) {
         super(settings);
 
         // Set the default state of the block to be deactivated.
@@ -62,10 +62,10 @@ public class CustomPoleModelChange extends HorizontalFacingBlock {
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext ctx) {
         Direction dir = state.get(FACING);
         return switch (dir) {
-            case NORTH -> VoxelShapes.cuboid(0.4375, 0, 0.4375, 0.5625, 1, 0.5625);
-            case SOUTH -> VoxelShapes.cuboid(0.4375, 0, 0.4375, 0.5625, 1, 0.5625);
-            case EAST -> VoxelShapes.cuboid(0.4375, 0, 0.4375, 0.5625, 1, 0.5625);
-            case WEST -> VoxelShapes.cuboid(0.4375, 0, 0.4375, 0.5625, 1, 0.5625);
+            case NORTH -> VoxelShapes.cuboid(0, 0.5625, 0, 1, 1, 0.5625);
+            case SOUTH -> VoxelShapes.cuboid(0.0f, 0.0f, 0.5f, 1.0f, 1.0f, 1.0f);
+            case EAST -> VoxelShapes.cuboid(0.5f, 0.0f, 0.0f, 1.0f, 1.0f, 1.0f);
+            case WEST -> VoxelShapes.cuboid(0.0f, 0.0f, 0.0f, 0.5f, 1.0f, 1.0f);
             default -> VoxelShapes.fullCube();
         };
     }
