@@ -12,7 +12,7 @@ import uk.slfhstd.scottyslu.ScottysLondonUnderground;
 
 public class ModItems {
 
-    public static final Item OYSTER = registerItem("oyster", new Item(new FabricItemSettings()));
+    public static final Item OYSTER = registerItem("oyster", new OysterCard(new FabricItemSettings()));
 
     private static void addItemsToIngredientTab(FabricItemGroupEntries entries) {
         entries.add(OYSTER);

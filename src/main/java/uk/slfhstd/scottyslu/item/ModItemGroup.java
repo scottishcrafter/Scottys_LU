@@ -73,12 +73,16 @@ public class ModItemGroup {
                     }).build());
 
     public static final ItemGroup SCOTTY_LU_FLOOR_SIGNS = Registry.register(Registries.ITEM_GROUP, new Identifier(ScottysLondonUnderground.MOD_ID, "scotty_floor_signs"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scotty_signs_floor"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scotty_signs_floor_roof"))
                     .icon(() -> new ItemStack(ModBlocks.SIGN_PLATFORM_1)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_1);
                         entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_2);
                         entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_3);
                         entries.add(ModBlocks.FLOOR_SIGN_PLATFORM_4);
+                        entries.add(ModBlocks.CEILING_SIGN_PLATFORM_1);
+                        entries.add(ModBlocks.CEILING_SIGN_PLATFORM_2);
+                        entries.add(ModBlocks.CEILING_SIGN_PLATFORM_3);
+                        entries.add(ModBlocks.CEILING_SIGN_PLATFORM_4);
                         entries.add(ModBlocks.FLOOR_SIGN_MTG);
                         entries.add(ModBlocks.FLOOR_SIGN_BYL);
                     }).build());
@@ -96,6 +100,6 @@ public class ModItemGroup {
 
                     }).build());
     public static void registerItemGroups() {
-        ScottysLondonUnderground.LOGGER.info("Registering Tabs for" +ScottysLondonUnderground.MOD_ID);
+        ScottysLondonUnderground.LOGGER.info("Registering Creative Tabs for" +ScottysLondonUnderground.MOD_ID);
     }
 }

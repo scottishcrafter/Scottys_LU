@@ -24,6 +24,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import uk.slfhstd.scottyslu.item.ModItems;
 
 import java.util.List;
 
@@ -54,7 +55,7 @@ public class CustomModelChange extends HorizontalFacingBlock {
 
 
         // for versions since 1.19
-        tooltip.add(Text.translatable("block.scottylu.model_swap.tooltip"));
+        tooltip.add(Text.translatable("tooltip.scottylu.model_swap"));
     }
 
 
@@ -72,7 +73,7 @@ public class CustomModelChange extends HorizontalFacingBlock {
 
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (!player.getAbilities().allowModifyWorld) {
+        if (!(player.getMainHandStack().getItem() == ModItems.OYSTER)) {
             // Skip if the player isn't allowed to modify the world.
             return ActionResult.PASS;
         } else {
