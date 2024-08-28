@@ -1,10 +1,7 @@
 package uk.slfhstd.scottyslu.block.custom;
 
 import com.mojang.serialization.MapCodec;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalFacingBlock;
-import net.minecraft.block.ShapeContext;
+import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
@@ -19,25 +16,23 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
-import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import uk.slfhstd.scottyslu.item.ModItems;
 
 import java.util.List;
 
-public class FloorSignModelChange extends HorizontalFacingBlock {
+public class CustomFacingMC extends FacingBlock {
 
     public static final BooleanProperty ACTIVATED = BooleanProperty.of("activated");
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(ACTIVATED);
-        builder.add(Properties.HORIZONTAL_FACING);
+        builder.add(Properties.FACING);
     }
 
-    public FloorSignModelChange(Settings settings) {
+    public CustomFacingMC(Settings settings) {
         super(settings);
 
         // Set the default state of the block to be deactivated.
@@ -45,7 +40,7 @@ public class FloorSignModelChange extends HorizontalFacingBlock {
     }
 
     @Override
-    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+    protected MapCodec<? extends FacingBlock> getCodec() {
         return null;
     }
 
@@ -54,25 +49,15 @@ public class FloorSignModelChange extends HorizontalFacingBlock {
 
 
         // for versions since 1.19
-        tooltip.add(Text.translatable("block.scottylu.model_swap.tooltip"));
+        tooltip.add(Text.translatable("tooltip.scottylu.model_swap"));
     }
 
 
-    @Override
-    public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext ctx) {
-        Direction dir = state.get(FACING);
-        return switch (dir) {
-            case NORTH -> VoxelShapes.cuboid(0.0625, 0, 0.0625, 0.9375, 0.06875, 0.9375);
-            case SOUTH -> VoxelShapes.cuboid(0.0625, 0, 0.0625, 0.9375, 0.06875, 0.9375);
-            case EAST -> VoxelShapes.cuboid(0.0625, 0, 0.0625, 0.9375, 0.06875, 0.9375);
-            case WEST -> VoxelShapes.cuboid(0.0625, 0, 0.0625, 0.9375, 0.06875, 0.9375);
-            default -> VoxelShapes.fullCube();
-        };
-    }
+
 
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (!player.getAbilities().allowModifyWorld) {
+        if (!(player.getMainHandStack().getItem() == ModItems.OYSTER)) {
             // Skip if the player isn't allowed to modify the world.
             return ActionResult.PASS;
         } else {

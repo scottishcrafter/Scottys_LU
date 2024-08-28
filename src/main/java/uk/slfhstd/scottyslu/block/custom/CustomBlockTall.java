@@ -5,21 +5,11 @@ import net.minecraft.block.*;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.Properties;
-import net.minecraft.text.MutableText;
-import net.minecraft.text.Text;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
-import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
-import org.mtr.mapping.holder.ItemStack;
-import org.mtr.mapping.holder.PlayerEntity;
-import org.mtr.mapping.mapper.PlayerHelper;
 
 
 public class CustomBlockTall extends HorizontalFacingBlock {
@@ -58,16 +48,7 @@ public class CustomBlockTall extends HorizontalFacingBlock {
     }
 
     
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
-        //if (!world.isClient) {
-        //    player.sendMessage(new Text("Hello World"), false);
-        //}
-//
-        ItemStack item = player.getMainHandStack();
-        item.setCount(0);
 
-        return ActionResult.CONSUME;
-    }
 
 
 
