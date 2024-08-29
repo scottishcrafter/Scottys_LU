@@ -166,7 +166,7 @@ public class ModBlocks {
             new CustomPole(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     public static final Block STATION_BIN = registerBlock("station_bin",
-            new CustomBlockTall(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
+            new StationBinMC(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
 
     public static final Block CCTV_WALL = registerBlock("cctv_wall",
             new CameraMC(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).nonOpaque()));
